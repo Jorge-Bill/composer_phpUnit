@@ -1,0 +1,22 @@
+{
+  "name": "jorge/composer-php-unit",
+  "description": "projeto para praticar logica com phpUnit",
+  "type": "project",
+  "require": {
+    "phpunit/phpunit": "6.5.5",
+    "composer/composer": "1.5.5"
+  },
+  "authors": [
+    {
+      "name": "Jorge Mendes",
+      "email": "jorge.mendesx@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {"App\\": "App/"}
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
